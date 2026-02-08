@@ -1,1 +1,152 @@
 @import "tailwindcss";
+
+:root {
+  /* for font family */
+  --font-family-roboto: "Roboto", sans-serif;
+  ---font-family-inter: "Inter", sans-serif;
+}
+
+
+@theme {
+  --font-roboto: var(--font-family-roboto)
+  /* --font-inter: var(--font-family-inter) */
+}
+
+/* *******************M3/display*********************** */
+
+.d-large {
+  @apply font-roboto font-normal text-[57px]/[64px];
+  letter-spacing: -0.25px;
+}
+
+.d-large-emphasized {
+  @apply font-roboto font-medium text-[57px]/[64px];
+  letter-spacing: -0.25px;
+}
+
+.d-medium {
+  @apply font-roboto font-normal text-[45px]/[52px];
+
+}
+.d-medium-emphasized {
+  @apply font-roboto font-medium text-[45px]/[52px];
+
+}
+.d-small {
+  @apply font-roboto font-medium text-[36px]/[44px];
+
+}
+/* ******************M3/headline******************** */
+
+.headline-large {
+  @apply font-roboto font-normal text-[32px]/[40px];
+
+}
+.headline-large-emphasized {
+  @apply font-roboto font-medium text-[32px]/[40px];
+
+}
+.headline-medium {
+  @apply font-roboto font-normal text-[28px]/[36px];
+
+}
+.headline-medium-emphasized {
+  @apply font-roboto font-medium text-[28px]/[36px];
+
+}
+.headline-small {
+  @apply font-roboto font-normal text-[24px]/[32px];
+
+}
+.headline-small-emphasized   {
+  @apply font-roboto font-medium text-[24px]/[32px];
+
+}
+
+/*  *****************************M3/title***************************** */
+
+.title-large {
+  @apply font-roboto font-normal text-[22px]/[28px];
+
+}
+.title-large-emphasized {
+  @apply font-roboto font-medium text-[22px]/[28px];  }
+
+
+.title-medium {
+  @apply font-roboto font-medium text-[16px]/[24px];}
+.title-medium-emphasized {
+  @apply font-roboto font-semibold text-[16px]/[24px];
+letter-spacing: -0.15px;}
+
+.title-small {
+  @apply font-roboto font-medium text-[14px]/[20px];
+  letter-spacing: -0.1px;
+}
+.title-small-emphasized {
+  @apply font-roboto font-semibold text-[14px]/[20px];
+  letter-spacing: -0.1px;
+}
+
+/* ************************************M3/label***************************************** */
+
+.label-large {
+  @apply font-roboto font-medium text-[14px]/[20px];
+  letter-spacing: 0.1px;
+}
+.label-large-emphasized {
+  @apply font-roboto font-semibold text-[12px]/[16px];
+  letter-spacing: 0.5px;
+}
+
+.label-medium {
+  @apply font-roboto font-medium text-[12px]/[16px];
+  letter-spacing: 0.5px;
+}
+.label-medium-emphasized {
+  @apply font-roboto font-semibold text-[12px]/[16px];
+  letter-spacing: 0.5px;
+}
+.label-small {
+  @apply font-roboto font-medium text-[11px]/[16px];
+  letter-spacing: 0.5px;
+}
+
+.label-small-emphasized {
+  @apply font-roboto font-semibold text-[11px]/[16px];
+  letter-spacing: 0.5px;
+}
+
+/* ************************************M3/body***************************************** */
+.body-large {
+  @apply font-roboto font-normal text-[16px]/[24px];
+  letter-spacing: 0.5px;
+}
+.body-large-emphasized {
+  @apply font-roboto font-medium text-[16px]/[24px];
+  letter-spacing: 0.5px;
+}
+.body-medium {
+  @apply font-roboto font-normal text-[14px]/[20px];
+  letter-spacing: 0.25px;
+}
+.body-medium-emphasized {
+  @apply font-roboto font-medium text-[14px]/[20px];
+  letter-spacing: 0.25px;
+}
+.body-small {
+  @apply font-roboto font-normal text-[12px]/[16px];
+  letter-spacing: 0.4px;
+}
+.body-small-emphasized {
+  @apply font-roboto font-medium text-[12px]/[16px];
+  letter-spacing: 0.4px;
+}
+
+/* *********************************************************Simple Design System************************************************************** */
+
+/* ==============Title Hero=============== */
+.title-hero {
+  @apply font-inter font-bold text-[72px]/[120%];
+  letter-spacing: -3px;
+}
