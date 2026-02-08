@@ -5,10 +5,10 @@
   --font-family-roboto: "Roboto", sans-serif;
   --font-family-inter: "Inter", sans-serif;
 }
- 
+
 @theme {
   --font-roboto: var(--font-family-roboto);
-    --font-inter: var(--font-family-inter);
+  --font-inter: var(--font-family-inter);
 }
 
 /* *******************M3/display*********************** */
@@ -141,53 +141,47 @@
   @apply font-inter font-bold text-[72px]/[120%];
   letter-spacing: -3px;
 }
-.title-page{
+.title-page {
   @apply font-inter font-bold text-[48px]/[120%];
   letter-spacing: -2px;
 }
 
-.subtitle{
+.subtitle {
   @apply font-inter font-normal text-[32px]/[120%];
   letter-spacing: -0.5px;
 }
-.heading{
+.heading {
   @apply font-inter font-semibold text-[24px]/[120%];
   letter-spacing: -2px;
 }
 
-.subheading{
+.subheading {
   @apply font-inter font-normal text-[20px]/[120%];
   letter-spacing: -0.5px;
 }
-.body-base{
+.body-base {
   @apply font-inter font-normal text-[16px]/[140%];
-
 }
-.body-strong{
+.body-strong {
   @apply font-inter font-semibold text-[16px]/[140%];
 }
-.body-emphasis{
+.body-emphasis {
   @apply font-inter font-semibold text-[16px]/[140%];
- 
 }
-.body-link{
+.body-link {
   @apply font-inter font-normal text-[16px]/[140%];
-  
 }
-.body-small{
+.body-small {
   @apply font-inter font-normal text-[14px]/[140%];
-  
 }
-.body-code{
+.body-code {
   @apply font-inter font-normal text-[16px]/[130%];
-  
 }
 
 /* ==================================Single Line=========================== */
 
 .single-line-base {
   @apply font-inter font-normal text-[16px]/[100%];
-
 }
 .single-line-strong {
   @apply font-inter font-semibold text-[16px]/[100%];
@@ -307,9 +301,7 @@
   letter-spacing: 0.08px;
 }
 
-
 /* *******************************Caption1************************************* */
-
 
 .caption1-regular {
   @apply font-roboto font-normal text-[12px]/[16px];
