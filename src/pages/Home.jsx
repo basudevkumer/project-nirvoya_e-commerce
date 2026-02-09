@@ -1,8 +1,11 @@
+import Flash from '@/component/home/Flash'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+   <>
+   <Flash/>
+   </>
   )
 }
 
