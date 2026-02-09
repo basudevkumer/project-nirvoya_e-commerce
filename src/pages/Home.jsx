@@ -1,9 +1,11 @@
-import Footer from '@/component/commonComponent/FooterTop'
+import Flash from '@/component/home/Flash'
 import React from 'react'
 
 const Home = () => {
   return (
-  <></>
+   <>
+   <Flash/>
+   </>
   )
 }
 
