@@ -45,7 +45,7 @@ export default function ReviewsSections() {
       <section className=" py-16">
         <div className=" px-4">
           {/* Ratting summary  */}
-          <div className="max-w-3xl grid lg:grid-cols-3 gap-12">
+          <div className="w-[853px] grid lg:grid-cols-3 gap-4">
             <div>
               <p className="text-xl text-gray-500 mb-3 font-medium">
                 Customer Review
@@ -61,7 +61,7 @@ export default function ReviewsSections() {
                 <div key={index} className="flex items-center gap-3 mb-3">
                   <span className="w-16 text-sm">{item.star} star</span>
 
-                  <div className="flex-1 bg-gray-300 h-2 rounded">
+                  <div className="w-[201px] flex-1 bg-gray-300 h-2 rounded">
                     <div
                       className="h-2 bg-yellow-500 rounded"
                       style={{ width: `${item.percent}%` }}
@@ -72,9 +72,11 @@ export default function ReviewsSections() {
               ))}
             </div>
 
-            <button className="w-45 h-15 px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
+           <div className=" flex justify-end items-center">
+             <button className="w-[200px]   h-[40px] px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
               Write a review
             </button>
+           </div>
           </div>
 
           {/* Review list  */}
@@ -154,7 +156,7 @@ export default function ReviewsSections() {
               </div>
             </div>
 
-            <button className="w-45 h-15 px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
+            <button className="w-[200px] h-[40px] px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
               Write a review
             </button>
           </form>
