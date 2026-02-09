@@ -1,9 +1,9 @@
-import Slider from '@/component/slider/Slider'
+import Footer from '@/component/commonComponent/FooterTop'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div><Slider/></div>
+  <></>
   )
 }
 
