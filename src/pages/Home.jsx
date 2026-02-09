@@ -1,9 +1,12 @@
+import Categeory from '@/component/home/categeory';
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Categeory/>
+    </>
   )
 }
 
-export default Home
+export default Home;
