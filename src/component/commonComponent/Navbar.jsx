@@ -60,7 +60,7 @@ const Navbar = () => {
                 return (
                   <li
                     className={`text-[#333333] pb-2 title-medium cursor-pointer px-2  relative after:absolute after:content-['']  after:w-[100%] after:h-[2px] after:-bottom-0 after:-left-full after:bg-[#0198E9]  overflow-hidden hover:after:left-0 `}
-                  >
+                 key={items.id} >
                     {items.label}
                   </li>
                 );
