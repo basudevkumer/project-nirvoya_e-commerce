@@ -1,8 +1,11 @@
+import ReviewsSections from '@/component/detail/ReviewsSection'
 import React from 'react'
 
 const Details = () => {
   return (
-    <div>Details</div>
+    <>
+    <ReviewsSections/>
+    </>
   )
 }
 
