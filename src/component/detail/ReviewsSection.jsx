@@ -159,6 +159,9 @@ export default function ReviewsSections() {
             <button className="w-[200px] h-[40px] px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
               Write a review
             </button>
+            <button className="w-[200px] h-[40px] px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
+              Write a review
+            </button>
           </form>
         </div>
       </section>
