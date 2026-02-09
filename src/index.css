@@ -63,7 +63,7 @@
   @apply font-roboto font-normal text-[22px]/[28px];
 }
 .title-large-emphasized {
-  @apply font-roboto font-medium text-[22px]/[28px];
+  @apply font-roboto font-medium text-[20px]/[28px];
 }
 
 .title-medium {
@@ -339,4 +339,9 @@
 .caption2-emphasized-italic {
   @apply font-roboto font-semibold text-[11px]/[13px];
   letter-spacing: 0.66px;
+}
+
+
+.n{
+  color: #333333cd;
 }
