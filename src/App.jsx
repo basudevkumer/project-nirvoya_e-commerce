@@ -4,7 +4,7 @@ import RootLayout from "./rootlayout/RootLayout";
 import Home from "./pages/Home";
 import Details from "./pages/Details";
 import ProductShop from "./pages/ProductShop";
-import ReviewsSection from "./component/reviews/ReviewsSection";
+import ReviewsSection from "./component/detail/ReviewsSection";
 
 const App = () => {
   return (
