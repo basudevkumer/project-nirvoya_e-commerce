@@ -45,7 +45,7 @@ export default function ReviewsSections() {
       <section className=" py-16">
         <div className=" px-4">
           {/* Ratting summary  */}
-          <div className="w-[853px] grid lg:grid-cols-3 gap-4">
+          <div className="md:w-214 lg:grid lg:grid-cols-3 gap-4">
             <div>
               <p className="text-xl text-gray-500 mb-3 font-medium">
                 Customer Review
@@ -58,22 +58,22 @@ export default function ReviewsSections() {
             </div>
             <div>
               {ratingStar.map((item, index) => (
-                <div key={index} className="flex items-center gap-3 mb-3">
-                  <span className="w-16 text-sm">{item.star} star</span>
+                <div key={index} className="md:flex items-center gap-3 mb-3">
+                  <span className="w-12 text-sm">{item.star} star</span>
 
-                  <div className="w-[201px] flex-1 bg-gray-300 h-2 rounded">
+                  <div className="lg:w-54 flex-1 bg-gray-300 h-2 rounded">
                     <div
                       className="h-2 bg-yellow-500 rounded"
                       style={{ width: `${item.percent}%` }}
                     ></div>
                   </div>
-                  <span>{item.percent}%</span>
+                  <span className="w-10 text-left">{item.percent}%</span>
                 </div>
               ))}
             </div>
 
-           <div className=" flex justify-end items-center">
-             <button className="w-[200px]   h-[40px] px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
+           <div className="items-center flex md:justify-end md:items-center">
+             <button className="w-50 h-10 px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
               Write a review
             </button>
            </div>
@@ -88,12 +88,13 @@ export default function ReviewsSections() {
             <div>
               {reviews.map((review, index) => (
                 <div key={index} className="mb-6">
-                  <div className="flex gap-2">
+                  <div className="flex gap-2 mb-5">
                     <img src={review.img} alt={review.name} />
                     <div>
                       <h4 className="font-semibold">{review.name}</h4>
-                      <div className="w-76 flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
-                        <div className="flex items-center text-yellow-500 gap-1 mb-2">
+                      <div className="w-56 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 mb-2">
+                        <span className="text-[#636363] font-medium">5.0</span>
+                        <div className="flex items-center text-yellow-500 gap-1">
                           {[...Array(review.rating)].map((_, i) => (
                             <FaStar key={i} />
                           ))}
@@ -156,7 +157,7 @@ export default function ReviewsSections() {
               </div>
             </div>
 
-            <button className="w-[200px] h-[40px] px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
+            <button className="w-50 h-10 px-6 py-2 bg-[#0198E9] text-white text-sm rounded cursor-pointer hover:bg-[#0381c5]">
               Write a review
             </button>
           </form>
