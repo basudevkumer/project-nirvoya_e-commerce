@@ -1,11 +1,12 @@
-import Flash from '@/component/home/Flash'
+
+import Filter from '@/component/productShop/filter'
 import React from 'react'
 
 const Home = () => {
   return (
-   <>
-   <Flash/>
-   </>
+    <>
+    <Filter/>
+    </>
   )
 }
 

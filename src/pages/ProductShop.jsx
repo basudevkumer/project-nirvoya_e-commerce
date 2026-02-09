@@ -1,8 +1,9 @@
+import Filter from '@/component/productShop/filter'
 import React from 'react'
 
 const ProductShop = () => {
   return (
-    <div>ProductShop</div>
+    <Filter/>
   )
 }
 
