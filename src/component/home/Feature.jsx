@@ -33,7 +33,7 @@ const Feature = () => {
         <Container>
             
             <h1 className='text-[26px] font-medium'>Featured Product</h1>
-            <div className='grid grid-cols-4 gap-6'>
+            <div className='grid grid-cols-4 gap-6 mt-5'>
             <div className=' w-[310px] hover:shadow-lg hover:shadow-gray-400'>
            <img src={watch1} alt="watch1" />
            <p className='flex items-center gap-x-1 '> <span className='text-[#ffff00] flex'><FaStar /><FaStar />< FaStar /><FaStar /> </span><span className='text-[#C0C0C0]'><FaStar /></span>  (0) </p>
